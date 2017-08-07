@@ -100,16 +100,21 @@ nav {
 
 
 
-/***********************************
-  text under each section heading
-***********************************/
+/*****************************************
+  text/content under each section heading
+*****************************************/
 .content {
 	font-family: "Special Elite", cursive;
 	font-size: 20px;
 }
 
+.contact-box {
+	margin-bottom: 20px;
+}
 
-
+.fa {
+	padding: 10px;
+}
 
 /*********
   cards
