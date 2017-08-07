@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Special+Elite");
 
+
+
+/**********
+   fonts
+**********/
 @font-face{
 	font-family: 'Impact_Label';
 	src: url('Impact_Label-webfont.woff');
@@ -11,10 +16,11 @@
 	src: url('Impact_Label_Reversed-webfont.woff');
 }
 
-.headers {
-  background-size: cover;
-}
 
+
+/*********************
+  main page headers
+*********************/
 .head-text-1 {
   font-family: "Impact_Label";
   margin: 0 0 0 30px;
@@ -28,10 +34,6 @@
   font-size: 30px;
   margin: 5px;
   padding: 5px 0 0 180px;
-}
-
-.carousel.carousel-slider {
-	border-bottom: 6px solid black;
 }
 
 /*.head-text-2 {
@@ -48,6 +50,19 @@
   padding: 5px 0 0 0;
 }*/
 
+
+
+/************************
+   carousel/main image
+************************/
+.carousel.carousel-slider {
+	border-bottom: 6px solid black;
+}
+
+
+/**********
+  navbar
+**********/
 nav {
 	position: fixed;
 	background-color: transparent;
@@ -68,6 +83,12 @@ nav {
     color: black;
 }
 
+
+
+
+/************************
+  each section heading
+************************/
 .title {
 	text-align: center;
 	font-family: "Impact_Label";
@@ -76,6 +97,34 @@ nav {
 	padding-top: 80px;
 }
 
+
+
+
+/***********************************
+  text under each section heading
+***********************************/
+.content {
+	font-family: "Special Elite", cursive;
+	font-size: 20px;
+}
+
+
+
+
+/*********
+  cards
+*********/
 .site-link, .git-link {
 	padding-left: 15px;
+}
+
+.card .card-image img {
+	border-bottom: 2px solid black;
+}
+
+/**********
+  footer
+**********/
+.page-footer {
+	background-color: #669999;
 }
