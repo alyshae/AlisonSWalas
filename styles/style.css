@@ -119,26 +119,23 @@ nav {
 /*********
   cards
 *********/
+
+.card-title {
+	font-family: "Special Elite", cursive;
+}
+
 .site-link, .git-link {
 	padding-left: 15px;
 }
 
-/*.card .card-image img {
-	border-bottom: 2px solid black;
-}*/
-
-/*.card.small {
-	border: 2px solid black;
-}*/
-
 .card-image img {
-	background-color: rgba(102, 153, 153, .2);
+	background-color: rgba(102, 153, 153, .3);
 	padding: 3%;
 	height: 100%;
 }
 
 .card-content {
-	background-color: rgba(102, 153, 153, .2);
+	background-color: rgba(102, 153, 153, .3);
 }
 
 .card-links {
