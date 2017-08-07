@@ -76,10 +76,6 @@ nav {
 	padding-top: 80px;
 }
 
-/*.card-row {
-	align-items: center;
+.site-link, .git-link {
+	padding-left: 15px;
 }
-
-.card-col {
-	margin: 5px 55px 0 55px;
-}*/
