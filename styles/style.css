@@ -44,6 +44,12 @@
   padding: 5px 0 0 0;
 }*/
 
+nav {
+	position: fixed;
+	background-color: transparent;
+	box-shadow: 0 0 0;
+}
+
 .nav-wrapper li a {
   font-family: "Impact_Label";
   color: black;
