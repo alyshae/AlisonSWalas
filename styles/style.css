@@ -30,6 +30,10 @@
   padding: 5px 0 0 180px;
 }
 
+.carousel.carousel-slider {
+	border-bottom: 6px solid black;
+}
+
 /*.head-text-2 {
   font-family: "Impact_Label";
 
@@ -63,3 +67,19 @@ nav {
 .button-collapse {
     color: black;
 }
+
+.title {
+	text-align: center;
+	font-family: "Impact_Label";
+	color: black;
+	font-size: 36px;
+	padding-top: 80px;
+}
+
+/*.card-row {
+	align-items: center;
+}
+
+.card-col {
+	margin: 5px 55px 0 55px;
+}*/
