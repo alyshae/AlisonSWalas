@@ -188,3 +188,22 @@ img.activator:hover {
 #love-mark {
 	color: #80B2B2;
 }
+
+
+
+/***********************************************************
+  disable GridDog Site Link on non Desktop/Laptop Browsers
+***********************************************************/
+
+.init-hidden {
+	display: none;
+}
+
+@media only screen and (max-width: 640px) {
+	.gd-live-link {
+		display: none;
+	}
+	.init-hidden {
+		display: inline;
+	}
+}
