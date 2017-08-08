@@ -36,7 +36,7 @@
 img.responsive-img {
 	/*margin-left: 28vw;*/
 	border: .5vw solid black;
-	max-width: 13%;
+	max-width: 16%;
 }
 
 /*.head-text-2 {
@@ -206,10 +206,18 @@ img.activator:hover {
 }
 
 @media only screen and (max-width: 640px) {
+
 	.gd-live-link {
 		display: none;
 	}
 	.init-hidden {
 		display: inline;
+	}
+}
+
+
+@media only screen and (max-width: 970px) {
+	.headshot {
+		display: none;
 	}
 }
