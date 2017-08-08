@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Special+Elite");
 
 
-
 /**********
    fonts
 **********/
@@ -15,8 +14,6 @@
 	font-family: 'Impact_Label_Reversed';
 	src: url('Impact_Label_Reversed-webfont.woff');
 }
-
-
 
 /*********************
   main page headers
@@ -33,7 +30,7 @@
   color: black;
   font-size: 2vw;
   margin: 5px;
-  padding: 5px 0 0 20vw;
+  padding: 5px 0 0 18vw;
 }
 
 /*.head-text-2 {
@@ -83,7 +80,9 @@ nav {
     color: black;
 }
 
-
+.fa-angle-double-down {
+	color: #C1C1C1;
+}
 
 
 /************************
@@ -120,8 +119,8 @@ nav {
   cards
 *********/
 
-.activator {
-	box-shadow: 2px 2px 2px grey;
+.card-col {
+	margin-top: 6%;
 }
 
 .card-title {
@@ -147,9 +146,31 @@ nav {
 	font-size: 18px;
 }
 
+img.activator:hover {
+	padding: 7%;
+}
+
+.card .card-reveal {
+	color: white;
+  padding: 24px;
+  position: absolute;
+  background-color: rgba(84, 83, 83, .95);
+  width: 100%;
+  overflow-y: auto;
+  left: 0;
+  top: 100%;
+  height: 100%;
+  z-index: 3;
+  display: none;
+}
+
 /**********
   footer
 **********/
 .page-footer {
 	background-color: #669999;
+}
+
+#love-mark {
+	color: #80B2B2;
 }
