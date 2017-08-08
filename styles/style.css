@@ -33,6 +33,12 @@
   padding: 5px 0 0 18vw;
 }
 
+img.responsive-img {
+	/*margin-left: 28vw;*/
+	border: .5vw solid black;
+	max-width: 13%;
+}
+
 /*.head-text-2 {
   font-family: "Impact_Label";
 
