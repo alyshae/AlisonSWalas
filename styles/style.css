@@ -22,18 +22,18 @@
   main page headers
 *********************/
 .head-text-1 {
-  font-family: "Impact_Label";
+	font-family: "Impact_Label";
   margin: 0 0 0 30px;
-  font-size: 70px;
+  font-size: 5vw;
   color: #669999;
 }
 
 .subhead-text-1 {
   font-family: "Special Elite", cursive;
   color: black;
-  font-size: 30px;
+  font-size: 2vw;
   margin: 5px;
-  padding: 5px 0 0 180px;
+  padding: 5px 0 0 20vw;
 }
 
 /*.head-text-2 {
@@ -120,8 +120,18 @@ nav {
   cards
 *********/
 
+.activator {
+	box-shadow: 2px 2px 2px grey;
+}
+
 .card-title {
 	font-family: "Special Elite", cursive;
+}
+
+.card-header {
+	font-family: "Special Elite", cursive;
+	font-size: 22px;
+	padding: 3px;
 }
 
 .site-link, .git-link {
@@ -129,13 +139,8 @@ nav {
 }
 
 .card-image img {
-	background-color: rgba(102, 153, 153, .3);
 	padding: 3%;
 	height: 100%;
-}
-
-.card-content {
-	background-color: rgba(102, 153, 153, .3);
 }
 
 .card-links {
