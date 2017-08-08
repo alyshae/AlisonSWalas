@@ -25,15 +25,15 @@
       <div class="nav-wrapper">
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li class="nav-about-me"><a href="#about">ABOUT ME</a></li>
-          <li class="nav-projects"><a href="#projects">PROJECTS</a></li>
-          <li class="nav-work-history"><a href="#work-hist">WORK HISTORY</a></li>
-          <li class="nav-contact"><a href="#contact">CONTACT</a></li>
+          <li class="nav-about-me"><a href="#about">- ABOUT ME -</a></li>
+          <li class="nav-projects"><a href="#projects">- PROJECTS -</a></li>
+          <li class="nav-resume"><a href="#resume">- RESUME -</a></li>
+          <li class="nav-contact"><a href="#contact">- CONTACT -</a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
           <li><a href="#about">ABOUT ME</a></li>
           <li><a href="#projects">PROJECTS</a></li>
-          <li><a href="#work-hist">WORK HISTORY</a></li>
+          <li><a href="#resume">RESUME</a></li>
           <li><a href="#contact">CONTACT</a></li>
         </ul>
       </div>
@@ -42,45 +42,116 @@
 
   <article>
     <section id="about" class="about">
-      <h2>ABOUT ME</h2>
-      </br>
-      <p>
-        I am a web developer with a background in...
-      </p>
+      <h2 class="title">ABOUT ME</h2></br>
+        <div class="container content about-box center">
+          <p>
+            I’m a full-stack software developer with a professional background in commercial real estate where I became known as the go-to person for creative problem solving. I once leased basement space with no windows to a budding start-up that initially thought water-views and open-ceilings were more important than giving their employees a stable office with a central and convenient location. I’ve since shifted my focus to solving problems of technical nature and I completed the Web Development Immersive program at General Assembly. Currently, I am extending my software development knowledge through freelance consulting work and personal projects while l search for an exciting full-time role.
+          </p>
+        </div>
     </section>
   </article>
 
   <article>
     <section id="projects" class="projects">
-      <h2>PROJECTS</h2>
+      <h2 class="title">PROJECTS</h2>
       </br>
-      <p>
-        blah blah blah blah
-      </p>
+      <div class="container card-container">
+        <div class="row card-row">
+          <!-- CARD 1 -->
+          <div class="col s12 m4 card-col">
+            <div class="card small card-1">
+              <div class="card-header center">GridDog</div>
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/griddog5.png">
+              </div>
+              <div class="card-content">
+                  <div class="row card-links">
+                    <p><a class="col s6 site-link center" href="https://griddog.herokuapp.com/">Live Site</a></p>
+                    <p><a class="col s6 git-link center" href="https://github.com/alyshae/griddog">GitHub</a></p>
+                  </div>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">GridDog<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
+          </div>
+          <!-- CARD 2 -->
+          <div class="col s12 m4 card-col">
+            <div class="card small card-2">
+              <div class="card-header center">Building Stories</div>
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/bldgStories4.png">
+              </div>
+              <div class="card-content">
+                <div class="row card-links">
+                  <p><a class="col s6 site-link center" href="https://whatsthatbuilding.herokuapp.com/">Live Site</a></p>
+                  <p><a class="col s6 git-link center" href="https://github.com/alyshae/building-story-app">GitHub</a></p>
+                </div>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Building Stories<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
+          </div>
+          <!-- CARD 3 -->
+          <div class="col s12 m4 card-col">
+            <div class="card small card-3">
+              <div class="card-header center">TrailMix</div>
+              <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="images/trailMix4.png">
+              </div>
+              <div class="card-content">
+                <div class="row card-links">
+                  <p><a class="col s6 site-link center" href="https://glacial-ridge-83997.herokuapp.com/">Live Site</a></p>
+                  <p><a class="col s6 git-link center" href="https://github.com/alyshae/trail-mix">GitHub</a></p>
+                </div>
+              </div>
+              <div class="card-reveal">
+                <span class="card-title">TrailMix<i class="material-icons right">close</i></span>
+                <p>Here is some more information about this product that is only revealed once clicked on.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
   </article>
 
   <article>
-    <section id="work-hist" class="work-hist">
-      <h2>WORK HISTORY</h2>
-      </br>
-      <p>
-        blah blah blah blah
-      </p>
+    <section id="resume" class="resume">
+      <h2 class="title">RESUME</h2></br>
+      <div class="container content resume-box center">
+        <p>
+          blah blah blah text text blah
+        </p>
+      </div>
     </section>
   </article>
 
   <article>
     <section id="contact" class="contact">
-      <h2>CONTACT</h2>
-      </br>
-      <p>
-        blah blah blah blah
-      </p>
+      <h2 class="title">CONTACT</h2></br>
+      <div class="container content contact-box center">
+        <a href="mailto:alison.walas@gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a>
+        <a href="https://github.com/alyshae"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/alisonswalas/"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a>
+      </div>
     </section>
   </article>
 
+  <footer class="page-footer">
+    <div class="footer-copyright">
+      <div class="container">
+      © 2017 ASWalas
+      <a class="grey-text text-lighten-4 right" href="#!">QUACK!!</a>
+      </div>
+    </div>
+  </footer>
+
   <!-- VENDOR SCRIPTS -->
+  <script src="https://use.fontawesome.com/e8eff042cb.js"></script>
   <script src="scripts/jquery.js"></script>
   <script type="text/javascript" src="scripts/materialize.js"></script>
   <!-- APPLICATION SCRIPTS -->
