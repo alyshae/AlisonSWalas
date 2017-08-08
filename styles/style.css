@@ -164,6 +164,20 @@ img.activator:hover {
   display: none;
 }
 
+.card-links-rev {
+	font-size: 18px;
+}
+
+.site-link:hover {
+	padding-left: 15px;
+	color: #7FCDD3;
+}
+
+.git-link:hover {
+	padding-left: 15px;
+	color: #7FCDD3;
+}
+
 /**********
   footer
 **********/
@@ -173,4 +187,23 @@ img.activator:hover {
 
 #love-mark {
 	color: #80B2B2;
+}
+
+
+
+/***********************************************************
+  disable GridDog Site Link on non Desktop/Laptop Browsers
+***********************************************************/
+
+.init-hidden {
+	display: none;
+}
+
+@media only screen and (max-width: 640px) {
+	.gd-live-link {
+		display: none;
+	}
+	.init-hidden {
+		display: inline;
+	}
 }

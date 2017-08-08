@@ -1,10 +1,11 @@
 console.log("sanity check");
 
 $(document).ready(function() {
-  $(".button-collapse").sideNav();
-  $('.carousel.carousel-slider').carousel({fullWidth: true});
+
+  $(".carousel.carousel-slider").carousel({fullWidth: true});
 
   // setInterval(function(){
   //   $('.carousel').carousel('next');
   // }, 10000);
+
 });
