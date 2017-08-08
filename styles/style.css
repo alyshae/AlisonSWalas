@@ -164,6 +164,16 @@ img.activator:hover {
   display: none;
 }
 
+.site-link:hover {
+	padding-left: 15px;
+	color: #7FCDD3;
+}
+
+.git-link:hover {
+	padding-left: 15px;
+	color: #7FCDD3;
+}
+
 /**********
   footer
 **********/
