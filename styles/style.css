@@ -164,6 +164,10 @@ img.activator:hover {
   display: none;
 }
 
+.card-links-rev {
+	font-size: 18px;
+}
+
 .site-link:hover {
 	padding-left: 15px;
 	color: #7FCDD3;
