@@ -170,7 +170,7 @@ img.activator:hover {
 	color: #7FCDD3;
 }
 
-.card .small {
+.card.small {
 	height: auto;
 }
 
