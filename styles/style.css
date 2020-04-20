@@ -170,6 +170,10 @@ img.activator:hover {
 	color: #7FCDD3;
 }
 
+.card .small {
+	height: auto;
+}
+
 /**********
   footer
 **********/
